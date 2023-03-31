@@ -1,5 +1,6 @@
 import React from 'react';
 
+//Landing page for the website along with bootstrap styling
 function HomePage() {
   return (
     <div className="container">
@@ -15,4 +16,5 @@ function HomePage() {
   );
 }
 
+// An export that allows the homepage function to be imported into App.tsx
 export default HomePage;

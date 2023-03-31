@@ -1,6 +1,7 @@
 import React from 'react';
 
-function PodcastPage(props: any) {
+function PodcastPage() {
+  // Styling and bootstrap for the link to the external Baconsale podcast page
   return (
     <React.Fragment>
       <div className="container my-5">
@@ -18,4 +19,5 @@ function PodcastPage(props: any) {
   );
 }
 
+// An export that allows the podcast function to be imported into App.tsx
 export default PodcastPage;

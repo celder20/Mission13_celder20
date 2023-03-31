@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
+    // Nav bar with all the boostrap styling and links to each page
     <>
       <div className="container-fluid">
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -42,4 +43,5 @@ function Navbar() {
   );
 }
 
+// An export that allows the navbar function to be imported into App.tsx
 export default Navbar;

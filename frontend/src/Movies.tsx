@@ -1,5 +1,6 @@
 import data from './MovieData.json';
 
+//This loads in the JSON data into a variable call MDS
 const MDS = data.MovieData;
 
 function MovieList() {
@@ -22,6 +23,7 @@ function MovieList() {
               </tr>
             </thead>
             <tbody>
+              {/* Grabbing each of the information in the JSON data file */}
               {MDS.map((m, index) => (
                 <tr key={index}>
                   <td>{m.Title}</td>
@@ -40,4 +42,5 @@ function MovieList() {
   );
 }
 
+// An export that allows the movielist function to be imported into App.tsx
 export default MovieList;
